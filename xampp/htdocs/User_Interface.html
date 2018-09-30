@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		  <title>Huffman File Compressor</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <style>*{background-color:#eee}</style>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	<div class="jumbotron text-center">
+		<h1>Huffman code generator & text file compressor</h1>
+		<p>Huffman coding - An algorithm to compress text files</p>
+		<form action="file_upload.php" method="post" enctype="multipart/form-data" class="form-group">
+			<p>Select a file to compress:</p>
+			<input type="file" name="fileToUpload" id="fileToUpload" value="Choose file" style="position:relative;left:36vw" class="btn btn-info btn-lg">
+			<br>
+			<input type="submit" value="Compress File" name="submit" class="btn btn-info btn-lg">
+		</form>
+	</div>
+	</body>
+</html>
